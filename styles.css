@@ -14,7 +14,7 @@ body::-webkit-scrollbar {
 }
 
 body::-webkit-scrollbar-track {
-  background: #3f3d56;
+  background: #2c2b3d;
 }
 
 body::-webkit-scrollbar-thumb {
@@ -49,7 +49,10 @@ nav {
   display: flex;
   justify-content: start;
   align-items: center;
-
+  font-family: JetBrains Mono;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
   margin-bottom: 15px;
 }
 
@@ -73,11 +76,10 @@ ul {
 a {
   color: #ffffff;
   text-decoration: none;
-  font-family: Mulish;
-  font-size: 18px;
+  font-family: JetBrains Mono;
+  font-size: 14px;
   font-style: normal;
-  font-weight: 700;
-  line-height: normal;
+  font-weight: 500;
 }
 
 ul li a:hover {
@@ -124,48 +126,34 @@ section p {
   margin: 40px 0;
 }
 
+p {
+  font-family: Open Sans;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+}
 section {
   width: 60%;
   text-align: center;
 }
 
-button {
-  color: #ffff;
-  font-family: "Open Sans", sans-serif;
-  font-size: 1rem;
-  text-transform: uppercase;
-  font-style: normal;
-  font-weight: 400;
-  line-height: normal;
-
-  border: 0;
-  padding: 15px 50px 15px;
-
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 10px;
-  border-radius: 4px;
-  cursor: pointer;
-}
-
 footer {
-  font-size: 14px;
+  font-size: 1rem;
   line-height: 28px;
-
-  text-align: center;
-}
-
-footer a {
   color: #fff;
-  font-weight: bold;
+  font-family: JetBrains Mono;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 28px;
+  text-align: center;
 }
 
 .line {
   width: 35.5rem;
   height: 1px;
   background-color: #00bfa6;
-  margin: 40px auto;
+  margin: 10rem auto 40px;
 }
 
 #padlock {
